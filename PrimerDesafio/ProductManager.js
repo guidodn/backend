@@ -58,3 +58,6 @@ console.log('Busco un Producto por id y funciona');
 console.log(productManager.getProductById(productManager.products(0).id));
 console.log('Busco un Producto por id y no funciona');
 console.log(productManager.getProductById('123'));
+
+
+//
