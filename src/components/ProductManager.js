@@ -1,7 +1,6 @@
-import { log } from "console";
 import {promises as fs} from "fs"
 
-class ProductManager {
+export default class ProductManager {
     constructor(){
         this.patch = "./productos.txt"
         this.products = []
@@ -83,14 +82,22 @@ class ProductManager {
 }
 
 
-const productos = new ProductManager
+//const productos = new ProductManager
 
 // Ejecuto
 
 /* productos.addProduct("Titulo", "Descripcion", 2000, "Img.jpg", "bck123", 25)
-productos.addProduct("Titulo2", "Descripcion2", 3000, "imagen.jpg", "bck321", 30) */ 
+productos.addProduct("Titulo2", "Descripcion2", 3000, "imagen.jpg", "bck321", 30) 
+productos.addProduct("Titulo3", "Descripcion3", 2000, "Img.jpg", "bck123", 12)
+productos.addProduct("Titulo4", "Descripcion4", 3000, "imagen.jpg", "bck321", 5) 
+productos.addProduct("Titulo5", "Descripcion5", 2000, "Img.jpg", "bck123", 8)
+productos.addProduct("Titulo6", "Descripcion6", 3000, "imagen.jpg", "bck321", 14) 
+productos.addProduct("Titulo7", "Descripcion7", 2000, "Img.jpg", "bck123", 16)
+productos.addProduct("Titulo8", "Descripcion8", 3000, "imagen.jpg", "bck321", 2) 
+productos.addProduct("Titulo9", "Descripcion9", 2000, "Img.jpg", "bck123", 1)
+productos.addProduct("Titulo10", "Descripcion10", 3000, "imagen.jpg", "bck321", 18)  */
 
-/* productos.getProducts ()  */
+/* productos.getProducts () */
 
 // Busco el producto por id
 
@@ -103,7 +110,7 @@ productos.addProduct("Titulo2", "Descripcion2", 3000, "imagen.jpg", "bck321", 30
 
 // Actualizo el producto cambiando price y stock
 
-productos.updateProducts ({
+/* productos.updateProducts ({
     title: 'Titulo2',
     description: 'Descripcion2',
     price: 4000,
@@ -111,4 +118,4 @@ productos.updateProducts ({
     code: 'bck321',
     stock: 45,
     id: 2
-}) 
+})  */
