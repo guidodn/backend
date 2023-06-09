@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server" : "nodemon src/server.js"
+    "dev": "nodemon src/index.js",
+    "server": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/guidodn/backend#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nanoid": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
